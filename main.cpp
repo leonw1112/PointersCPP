@@ -57,7 +57,15 @@ int main()
 
     if (uchoice == 'h')
     {
-        cout << "Task 1: Pointers to Integers: Write a program that declares a pointer to an integer and uses that pointer to change the value of the number. \n";
+        cout << "---------- \n";
+        cout << "Task 1: Pointers to Integers: A function that declares a pointer to an integer and uses that pointer to change the value of the number. \n";
+        cout << "---------- \n";
+        cout << "Task 1: Pointers to Char: A function that declares a pointer to an char and uses that pointer to change the value of the char. ex.: reverses the text. \n";
+        cout << "---------- \n";
+        cout << "Task 1: Dynamic Array: A function that creates a pointer and uses that pointer to create an dynamic array. \n";
+        cout << "---------- \n";
+        cout << "More features coming soon. \n";
+        cout << "---------- \n";
     }
     else if (uchoice == '1') // Call func. PointersToInt
     {
