@@ -62,7 +62,7 @@ int main()
         cout << "---------- \n";
         cout << "Task 1: Pointers to Char: A function that declares a pointer to an char and uses that pointer to change the value of the char. ex.: reverses the text. \n";
         cout << "---------- \n";
-        cout << "Task 1: Dynamic Array: A function that creates a pointer and uses that pointer to create an dynamic array. \n";
+        cout << "Task 1: Dynamic Array: A function that creates a pointer and uses that pointer to create an dynamic memory allocation. \n";
         cout << "---------- \n";
         cout << "More features coming soon. \n";
         cout << "---------- \n";
