@@ -11,7 +11,7 @@ This is a simple C++ program that contains three functions to demonstrate the us
    git clone https://github.com/leonw1112/PointersCPP
 3. Change to the directory of the cloned repository:
    ```bash
-   cd PointersCPP```
+   cd PointersCPP
 4. Compile the program using your C++ compiler:
    ```bash
    g++ main.cpp -o pointer_examples
