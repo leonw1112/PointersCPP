@@ -8,7 +8,7 @@ This is a simple C++ program that contains three functions to demonstrate the us
 
 2. Clone this repository to your computer:
    ```bash
-   git clone https://github.com/leonw1112/PointersCPP`
+   git clone https://github.com/leonw1112/PointersCPP``
 3. Change to the directory of the cloned repository:
    ```bash
    cd PointersCPP```
@@ -17,7 +17,7 @@ This is a simple C++ program that contains three functions to demonstrate the us
    g++ main.cpp -o pointer_examples```
 5. Run the program:
    ```bash
-   ./pointer_examples
+   ./pointer_examples``
 ## Usage
 
 The program contains three main functions:
