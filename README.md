@@ -14,7 +14,7 @@ This is a simple C++ program that contains three functions to demonstrate the us
    cd PointersCPP```
 4. Compile the program using your C++ compiler:
    ```bash
-   g++ main.cpp -o pointer_examples```
+   g++ main.cpp -o pointer_examples`
 5. Run the program:
    ```bash
    ./pointer_examples``
