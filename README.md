@@ -8,16 +8,16 @@ This is a simple C++ program that contains three functions to demonstrate the us
 
 2. Clone this repository to your computer:
    ```bash
-   git clone https://github.com/leonw1112/PointersCPP``
+   git clone https://github.com/leonw1112/PointersCPP
 3. Change to the directory of the cloned repository:
    ```bash
    cd PointersCPP```
 4. Compile the program using your C++ compiler:
    ```bash
-   g++ main.cpp -o pointer_examples´´
+   g++ main.cpp -o pointer_examples
 5. Run the program:
    ```bash
-   ./pointer_examples``
+   ./pointer_examples
 ## Usage
 
 The program contains three main functions:
@@ -36,7 +36,7 @@ This function demonstrates how to create a Dynamic memory allocation with pointe
 To run the program:
 
 1. ```bash
-   ./pointer.examples```
+   ./pointer.examples
 
 2. Follow the instructions displayed by the program to perform the respective task.
 
