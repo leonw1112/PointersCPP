@@ -36,7 +36,7 @@ This function demonstrates how to create a Dynamic memory allocation with pointe
 To run the program:
 
 1. ```bash
-   ./pointer.examples
+   ./pointer_examples
 
 2. Follow the instructions displayed by the program to perform the respective task.
 
