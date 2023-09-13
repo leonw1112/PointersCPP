@@ -20,7 +20,7 @@ This is a simple C++ program that contains two functions to demonstrate the use 
    ./pointer_examples
 ## Usage
 
-The program contains two main functions:
+The program contains three main functions:
 
 #### PointersToInt
 
@@ -35,7 +35,8 @@ This function demonstrates how to create a Dynamic memory allocation with pointe
 
 To run the program:
 
-1. Run the program.
+1. ```bash
+   ./pointer.examples```
 
 2. Follow the instructions displayed by the program to perform the respective task.
 
