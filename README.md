@@ -1,6 +1,6 @@
 # C++ Pointer Examples
 
-This is a simple C++ program that contains two functions to demonstrate the use of pointers. You can use this program to learn more about pointers in C++.
+This is a simple C++ program that contains three functions to demonstrate the use of pointers. You can use this program to learn more about pointers in C++.
 
 ## Installation
 
