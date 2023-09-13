@@ -1,38 +1,38 @@
-#include <iostream>
+#include <iostream> // basic functions like cout
 
-using namespace std;
+using namespace std; // namespace standard
 
-void PointersToInt()
+void PointersToInt() // Point to Integer function
 {
     int number;
-    cout << "Zahl eingeben: ";
+    cout << "Enter Integer: "; // Ask for User Input
     cin >> number;
     int *numberpointer = &number;
-    cout << "Value of the number before: " << *numberpointer << "\n";
-    *numberpointer = 7;
-    cout << "Value of the number after: " << *numberpointer << "\n";
+    cout << "Value of the number before: " << *numberpointer << "\n"; // Output old integer
+    *numberpointer = 7;                                               // Changing the value
+    cout << "Value of the number after: " << *numberpointer << "\n";  // Output new integer
 }
-void PointersToChar()
+void PointersToChar() // Point to Char function
 {
     const char *text = "Test";
     const char *charpointer = text;
-    cout << "String backwards: ";
-    while (*charpointer != '\0')
+    cout << "String backwards: "; // Output
+    while (*charpointer != '\0')  // Reversing char
     {
         charpointer++;
     }
     while (charpointer != text)
     {
         charpointer--;
-        cout << *charpointer;
+        cout << *charpointer; // Output reversed Char
     }
     cout << "\n";
 }
-void DynamicArray()
+void DynamicArray() // Array function
 {
-    int n;
+    int n; // Variable size integer
 
-    cout << "Please enter the amount of elements that should be in the array: ";
+    cout << "Please enter the amount of elements that should be in the array: "; // Ask for User Input
     cin >> n;
 
     int *arr = new int[n];
@@ -52,10 +52,10 @@ void DynamicArray()
 int main()
 {
     char uchoice;
-    cout << "Choose a task (1-9 / type h for help): ";
+    cout << "Choose a task (1-9 / type h for help): "; // Ask for User Input
     cin >> uchoice;
 
-    if (uchoice == 'h')
+    if (uchoice == 'h') // help function
     {
         cout << "---------- \n";
         cout << "Task 1: Pointers to Integers: A function that declares a pointer to an integer and uses that pointer to change the value of the number. \n";
@@ -69,14 +69,14 @@ int main()
     }
     else if (uchoice == '1') // Call func. PointersToInt
     {
-        PointersToInt();
+        PointersToInt(); // goto func.
     }
-    else if (uchoice == '2')
+    else if (uchoice == '2') // Call func. PointersToChar
     {
-        PointersToChar(); // Call func. PointersToChar
+        PointersToChar(); // goto func.
     }
-    else if (uchoice == '3')
+    else if (uchoice == '3') // Call func. DynamicArray
     {
-        DynamicArray();
+        DynamicArray(); // goto func.
     }
 }
