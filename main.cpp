@@ -28,6 +28,27 @@ void PointersToChar()
     }
     cout << "\n";
 }
+void DynamicArray()
+{
+    int n;
+
+    cout << "Please enter the amount of elements that should be in the array: ";
+    cin >> n;
+
+    int *arr = new int[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Please enter the " << i + 1 << ", element: ";
+        cin >> arr[i];
+    }
+    cout << "The entered elements are: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << *(arr + i) << " ";
+    }
+    delete[] arr;
+}
 int main()
 {
     char uchoice;
@@ -45,5 +66,9 @@ int main()
     else if (uchoice == '2')
     {
         PointersToChar(); // Call func. PointersToChar
+    }
+    else if (uchoice == '3')
+    {
+        DynamicArray();
     }
 }
